@@ -36,3 +36,44 @@ products = pd.DataFrame(data, columns=['product_id', 'low_fats', 'recyclable']).
 
 
 
+Que 3) Write a solution to find all customers who never order anything.
+
+Return the result table in any order
+
+data = [[1, 'Joe'], [2, 'Henry'], [3, 'Sam'], [4, 'Max']]
+customers = pd.DataFrame(data, columns=['id', 'name']).astype({'id':'Int64', 'name':'object'})
+data = [[1, 3], [2, 1]]
+orders = pd.DataFrame(data, columns=['id', 'customerId']).astype({'id':'Int64', 'customerId':'Int64'})
+
+![image](https://github.com/user-attachments/assets/e6ba33a5-724d-4f97-a0a6-fb85a43e91a8)
+
+
+![image](https://github.com/user-attachments/assets/f8e63386-4597-4fc1-8fb6-b9e73dc52d44)
+
+
+
+Que 4) Write a solution to find all the authors that viewed at least one of their own articles.
+
+Return the result table sorted by id in ascending order.
+
+data = [[1, 3, 5, '2019-08-01'], [1, 3, 6, '2019-08-02'], [2, 7, 7, '2019-08-01'], [2, 7, 6, '2019-08-02'], [4, 7, 1, '2019-07-22'], [3, 4, 4, '2019-07-21'], [3, 4, 4, '2019-07-21']]
+views = pd.DataFrame(data, columns=['article_id', 'author_id', 'viewer_id', 'view_date']).astype({'article_id':'Int64', 'author_id':'Int64', 'viewer_id':'Int64', 'view_date':'datetime64[ns]'})
+
+
+Que 5) Write a solution to find all the authors that viewed at least one of their own articles.
+
+Return the result table sorted by id in ascending order
+
+data = [[1, 3, 5, '2019-08-01'], [1, 3, 6, '2019-08-02'], [2, 7, 7, '2019-08-01'], [2, 7, 6, '2019-08-02'], [4, 7, 1, '2019-07-22'], [3, 4, 4, '2019-07-21'], [3, 4, 4, '2019-07-21']]
+views = pd.DataFrame(data, columns=['article_id', 'author_id', 'viewer_id', 'view_date']).astype({'article_id':'Int64', 'author_id':'Int64', 'viewer_id':'Int64', 'view_date':'datetime64[ns]'})
+
+
+![image](https://github.com/user-attachments/assets/e694b965-ea20-4e04-a3bd-c762a0b87c4c)
+
+![image](https://github.com/user-attachments/assets/fccd2113-6bfc-4bbf-bf5d-63fea608612b)
+
+
+
+
+
+
