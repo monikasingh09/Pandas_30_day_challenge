@@ -1,12 +1,8 @@
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| name        | varchar |
-| continent   | varchar |
-| area        | int     |
-| population  | int     |
-| gdp         | bigint  |
-+-------------+---------+
+
+Que1 ) Find out Big Countries : 
+
+![image](https://github.com/user-attachments/assets/f08b53d8-0a3b-49ba-8b31-463aed047968)
+
 name is the primary key (column with unique values) for this table.
 Each row of this table gives information about the name of a country, the continent to which it belongs, its area, the population, and its GDP value.
  
@@ -22,7 +18,8 @@ Return the result table in any order.
 
 ## Code ##
 
-![image](https://github.com/user-attachments/assets/8eb19d31-04bf-4c8b-bfc3-30d10c4109a2)
+![image](https://github.com/user-attachments/assets/032e4d50-1857-4101-b8ff-885005573c4f)
+
 
 
 ![image](https://github.com/user-attachments/assets/bf8b09cf-aa8f-4ccb-9700-93060f3784bd)
