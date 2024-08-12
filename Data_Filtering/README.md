@@ -25,4 +25,14 @@ Return the result table in any order.
 ![image](https://github.com/user-attachments/assets/bf8b09cf-aa8f-4ccb-9700-93060f3784bd)
 
 
+Que2: Write a solution to find the ids of products that are both low fat and recyclable.
+Return the result table in any order.
+data = [['0', 'Y', 'N'], ['1', 'Y', 'Y'], ['2', 'N', 'Y'], ['3', 'Y', 'Y'], ['4', 'N', 'N']]
+products = pd.DataFrame(data, columns=['product_id', 'low_fats', 'recyclable']).astype({'product_id':'int64', 'low_fats':'category', 'recyclable':'category'})
+
+![image](https://github.com/user-attachments/assets/cc6cbb03-5807-4e20-a459-c137a8a3279b)
+
+![image](https://github.com/user-attachments/assets/8b9635c7-f5e5-4164-8e3f-fe2ae35ce246)
+
+
 
