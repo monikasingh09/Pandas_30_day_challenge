@@ -28,4 +28,17 @@ activity = pd.DataFrame(data, columns=['player_id', 'device_id', 'event_date', '
 ![image](https://github.com/user-attachments/assets/e029f874-8f78-4b2b-97be-a987bd55fd14)
 
 
+Que 3) Write a solution to calculate the number of unique subjects each teacher teaches in the university.
+
+Return the result table in any order.
+
+data = [[1, 2, 3], [1, 2, 4], [1, 3, 3], [2, 1, 1], [2, 2, 1], [2, 3, 1], [2, 4, 1]]
+
+teacher = pd.DataFrame(data, columns=['teacher_id', 'subject_id', 'dept_id']).astype({'teacher_id':'Int64', 'subject_id':'Int64', 'dept_id':'Int64'})
+
+![image](https://github.com/user-attachments/assets/cd7b7714-6bb6-4c90-bd91-ea8722c39859)
+
+![image](https://github.com/user-attachments/assets/f3f55d8e-dd5c-43f9-a50e-3696bad85f85)
+
+
 
